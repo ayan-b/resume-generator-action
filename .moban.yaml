@@ -1,0 +1,21 @@
+configuration:
+  configuration: config/data.yml
+  template_dir:
+    - templates
+  template_types:
+    latex_type:
+      base_type: jinja2
+      file_extensions:
+        - tex_jj2
+      options:
+        block_start_string: '((*'
+        block_end_string: '*))'
+        variable_start_string: '((('
+        variable_end_string: ')))'
+        comment_start_string : '((='
+        comment_end_string: '=))'
+        trim_blocks: true
+        lstrip_blocks: true
+
+targets:
+  - main.tex: sb2nov-resume.tex_jj2

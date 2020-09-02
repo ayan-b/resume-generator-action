@@ -1,0 +1,8 @@
+name: Resume Generator Action
+description: Generate Your Resume from an YAML!
+branding:
+  icon: "award"
+  color: "blue"
+runs:
+  using: "docker"
+  image: "Dockerfile"
