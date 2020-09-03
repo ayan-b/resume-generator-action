@@ -1,4 +1,5 @@
 #!/bin/sh
 
 ls
-moban
+moban --version
+moban -v

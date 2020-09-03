@@ -7,8 +7,3 @@ branding:
 runs:
   using: "docker"
   image: "Dockerfile"
-inputs:
-  output_pdf:
-    description: Name of the output PDF
-    required: false
-    default: "main.pdf"
