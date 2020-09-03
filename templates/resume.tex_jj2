@@ -1,11 +1,5 @@
 % Credits: https://github.com/sb2nov/resume
 
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 \ignorespaces
 

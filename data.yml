@@ -1,0 +1,68 @@
+# Personal
+name: Ayan Banerjee
+website: https://ayan-b.github.io/
+email: ayanbn7@gmail.com
+dob: 01.01.2019
+guardian: Lorem Ipsum
+address: Lorem Ipsum 
+mobile: +91 123456789
+
+# Education
+education:
+  - institute: National Institute of Technology, Durgapur
+    place: Durgapur, India
+    program: B.Tech in Electronics and Communication Engineering
+    marks: "CGPA: 9.30/10 (till 5th semester)"
+    period: 2016 - 2020
+  - institute: Sargachi Ramakrishna Mission High School
+    place: Sargachi, India
+    program: Higher Secondary
+    marks: 96\%
+    period: 2014 - 2016
+  - institute: Sargachi Ramakrishna Mission High School
+    place: Sargachi, India
+    program: Secondary
+    marks: 92.43\%
+    period: 2008 - 2014    
+
+# Experience
+experiences:
+  - company: Indian Institute of Technology, Bombay
+    place: Mumbai, India
+    position: Summer Intern
+    period: May - June, 2018
+    work:
+      - description: Duis aute irure dolor in
+      - title: Django
+        description: Excepteur sint occaecat cupidatat non
+      - description: Duis aute irure dolor in
+      - description: Excepteur sint occaecat cupidatat non
+      - title: hello
+        description: hello mercury venus earth mars jupiter
+
+# Projects
+projects:
+  - name: Project1
+    link: https://foo.bar
+    work: Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor Lorem ipsum dolor
+  - name: Project2
+    link: https://foo.bar
+    work: Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit,
+  - name: Project3
+    link: https://foo.bar
+    work: Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit,
+  - name: IoT Hackathon
+    link: https://hacakathon.com
+    work: Won hackathon in a team of four, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+
+# achievements
+achievements:
+  - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+
+# skills
+skills:
+  proficient:  C, C++, Python, Data Structures and Algorithms, Version Control System (git), Object Oriented Programming
+  familiar: SQL, Linux, Web Technologies (HTML, CSS, JavaScript), WebGL, Backend Technologies (Django, Flask), Machine Learning, Deep Learning, PyTorch, \LaTeX

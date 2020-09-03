@@ -1,0 +1,25 @@
+name: Create resume
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Repo checkout
+      uses: actions/checkout@v2
+    - name: Create Resume
+      uses: ayan-b/resume-generator-action@master
+    - name: Generate tex file
+      run: moban
+    - name: Compile LaTeX document
+      uses: dante-ev/latex-action@master
+      with:
+        root_file: main.tex
+    - name: Commit to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./main.pdf
