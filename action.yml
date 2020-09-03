@@ -1,4 +1,5 @@
 name: Resume Generator Action
+author: "Ayan Banerjee"
 description: Generate Your Resume from an YAML!
 branding:
   icon: "award"
@@ -6,3 +7,8 @@ branding:
 runs:
   using: "docker"
   image: "Dockerfile"
+inputs:
+  output_pdf:
+    description: Name of the output PDF
+    required: false
+    default: "main.pdf"
