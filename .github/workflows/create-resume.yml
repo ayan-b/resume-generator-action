@@ -10,6 +10,10 @@ jobs:
     steps:
     - name: Repo checkout
       uses: actions/checkout@v2
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.6'
     - name: Install from pip
       run: pip install -r requirements.txt
     - name: Generate tex file
