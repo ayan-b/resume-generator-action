@@ -18,4 +18,4 @@ configuration:
         lstrip_blocks: true
 
 targets:
-  - main.tex: sb2nov-resume.tex_jj2
+  - main.tex: resume.tex_jj2

@@ -6,7 +6,6 @@ ADD requirements.txt /requirements.txt
 ADD entrypoint.sh /entrypoint.sh
 ADD templates /templates
 ADD .moban.yaml /.moban.yaml
-ADD data /data
 
 RUN pip install -r requirements.txt
 
