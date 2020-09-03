@@ -11,7 +11,7 @@ jobs:
     - name: Repo checkout
       uses: actions/checkout@v2
     - name: Install from pip
-      uses: pip install -r requirements.txt
+      run: pip install -r requirements.txt
     - name: Generate tex file
       run: moban
     - name: Compile LaTeX document
