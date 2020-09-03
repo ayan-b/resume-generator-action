@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Repo checkout
       uses: actions/checkout@v2
-    - name: Create Resume
-      uses: ayan-b/resume-generator-action@master
     - name: Generate tex file
       run: moban
     - name: Compile LaTeX document
