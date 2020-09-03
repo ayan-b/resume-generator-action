@@ -1,5 +1,5 @@
 configuration:
-  configuration: config/data.yml
+  configuration: data.yml
   template_dir:
     - templates
   template_types:
