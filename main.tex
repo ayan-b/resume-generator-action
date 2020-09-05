@@ -1,0 +1,153 @@
+% Credits: https://github.com/sb2nov/resume
+
+\documentclass[letterpaper,11pt]{article}
+\ignorespaces
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{ #1 } & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{ #1 }{ #2 }\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%%%%%%%CV STARTS HERE%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://ayan-b.github.io/}{\Large Ayan Banerjee}} & Email : \href{mailto: ayanbn7@gmail.com}{ayanbn7@gmail.com}\\
+  \href{https://ayan-b.github.io/}{https://ayan-b.github.io/} & Mobile : +91 123456789 \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {National Institute of Technology, Durgapur}{Durgapur, India}
+      {B.Tech in Electronics and Communication Engineering, CGPA: 9.30/10 (till 5th semester)}{2016 - 2020}
+  \resumeSubheading
+      {Sargachi Ramakrishna Mission High School}{Sargachi, India}
+      {Higher Secondary, 96\%}{2014 - 2016}
+  \resumeSubheading
+      {Sargachi Ramakrishna Mission High School}{Sargachi, India}
+      {Secondary, 92.43\%}{2008 - 2014}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {UCSC Xena}{Open Source}
+    {Google Summer of Code student}{May - August, 2019}
+    \resumeItemListStart
+      \item\small
+        {Duis aute irure dolor in}
+      \resumeItem{Django}
+        {Excepteur sint occaecat cupidatat non}
+      \item\small
+        {Duis aute irure dolor in}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Indian Institute of Technology, Bombay}{Mumbai, India}
+    {Summer Intern}{May - June, 2018}
+    \resumeItemListStart
+      \item\small
+        {Duis aute irure dolor in}
+      \resumeItem{Django}
+        {Excepteur sint occaecat cupidatat non}
+      \item\small
+        {Duis aute irure dolor in}
+      \item\small
+        {Excepteur sint occaecat cupidatat non}
+      \resumeItem{hello}
+        {hello mercury venus earth mars jupiter}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \setlength{\itemsep}{0.5pt}
+    \begin{itemize}
+    \item\textbf{\href{https://foo.bar}{Project1}}{: Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor Lorem ipsum dolor}
+    \item\textbf{\href{https://foo.bar}{Project2}}{: Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit,}
+    \item\textbf{\href{https://foo.bar}{Project3}}{: Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit,}
+    \item\textbf{\href{https://hacakathon.com}{IoT Hackathon}}{: Won hackathon in a team of four, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.}
+    \end{itemize}
+
+%-----------ACHIEVEMENTS-------------
+\section{Achievements}
+  \resumeItemListStart
+    \item
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    \item
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+    \item
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    \item
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  \resumeItemListEnd
+
+%----------SKILLS--------------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item\textbf{Proficient In}{: C, C++, Python, Data Structures and Algorithms, Version Control System (git), Object Oriented Programming}
+    \item\textbf{Familiar With}{: SQL, Linux, Web Technologies (HTML, CSS, JavaScript), WebGL, Backend Technologies (Django, Flask), Machine Learning, Deep Learning, PyTorch, \LaTeX}
+  \resumeSubHeadingListEnd
+%--------------------------------------
+\end{document}
