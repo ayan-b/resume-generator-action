@@ -1,17 +1,17 @@
 # {{ name }}
 
-Email: {{ email }}
-Address: {{ address }}
+Email: {{ email }}  
+Address: {{ address }}  
 [Website]({{website}}) | [LinkedIn]({{linkedin}}) | [GitHub]({{github}}) | [Resume](./main.pdf)
 
 ## Education
 
 {% for institute in education %}
-### {{ institute.institute }}
+- **{{ institute.institute }}**
 
-    {{ institute.place }}
-    {{ institute.program }}, {{ institute.marks }}
-    {{ institute.period }}
+    _{{ institute.place }}_  
+    {{ institute.program }}, {{ institute.marks }}  
+    {{ institute.period }}  
 
 {% endfor %}
 
@@ -20,12 +20,12 @@ Address: {{ address }}
 {% for experience in experiences %}
 ### {{ experience.position }}
 
-    _{{ experience.place }}_
-    {{ experience.company }}
-    {{ experience.period }}
-    {% for work in experience.work %}
-    - {% if work.title %}**{{work.title}}:**{% endif %}{{ work.description }}
-    {% endfor %}
+_{{ experience.place }}_  
+{{ experience.company }}  
+{{ experience.period }}  
+{% for work in experience.work %}
+- {% if work.title %}**{{work.title}}:** {% endif %}{{ work.description }}
+{% endfor %}
 
 {% endfor %}
 

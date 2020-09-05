@@ -19,5 +19,5 @@ configuration:
 
 targets:
   - deploy/main.tex: templates/resume.tex_jj2
-  - deploy/index.md: templates/resume.md_jj2
-  - deploy/config.yml: templates/_config.yml_jj2
+  - deploy/README.md: templates/resume.md_jj2
+  - deploy/_config.yml: templates/_config.yml_jj2
