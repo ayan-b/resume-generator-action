@@ -21,9 +21,9 @@ jobs:
     - name: Compile LaTeX document
       uses: dante-ev/latex-action@master
       with:
-        root_file: main.tex
-    - name: Move pdf to a directory
-      run: mkdir deploy && mv main.pdf deploy/main.pdf
+        root_file: deploy/main.tex
+    # - name: Move pdf to a directory
+    #   run: mkdir deploy && mv main.pdf deploy/main.pdf
     - name: Commit to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
