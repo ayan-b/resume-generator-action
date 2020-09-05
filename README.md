@@ -1,51 +1,51 @@
 # Ayan Banerjee
 
-Email: ayanbn7@gmail.com
-Address: Lorem Ipsum
+Email: ayanbn7@gmail.com  
+Address: Lorem Ipsum  
 [Website](https://ayan-b.github.io/) | [LinkedIn](https://www.linkedin.com/in/ayanb/) | [GitHub](https://www.github.com) | [Resume](./main.pdf)
 
 ## Education
 
-### National Institute of Technology, Durgapur
+- **National Institute of Technology, Durgapur**
 
-    Durgapur, India
-    B.Tech in Electronics and Communication Engineering, CGPA: 9.30/10 (till 5th semester)
-    2016 - 2020
+    _Durgapur, India_  
+    B.Tech in Electronics and Communication Engineering, CGPA: 9.30/10 (till 5th semester)  
+    2016 - 2020  
 
-### Sargachi Ramakrishna Mission High School
+- **Sargachi Ramakrishna Mission High School**
 
-    Sargachi, India
-    Higher Secondary, 96\%
-    2014 - 2016
+    _Sargachi, India_  
+    Higher Secondary, 96\%  
+    2014 - 2016  
 
-### Sargachi Ramakrishna Mission High School
+- **Sargachi Ramakrishna Mission High School**
 
-    Sargachi, India
-    Secondary, 92.43\%
-    2008 - 2014
+    _Sargachi, India_  
+    Secondary, 92.43\%  
+    2008 - 2014  
 
 
 ## Experience
 
 ### Google Summer of Code student
 
-    _Open Source_
-    UCSC Xena
-    May - August, 2019
-    - Duis aute irure dolor in
-    - **Django:**Excepteur sint occaecat cupidatat non
-    - Duis aute irure dolor in
+_Open Source_  
+UCSC Xena  
+May - August, 2019  
+- Duis aute irure dolor in
+- **Django:** Excepteur sint occaecat cupidatat non
+- Duis aute irure dolor in
 
 ### Summer Intern
 
-    _Mumbai, India_
-    Indian Institute of Technology, Bombay
-    May - June, 2018
-    - Duis aute irure dolor in
-    - **Django:**Excepteur sint occaecat cupidatat non
-    - Duis aute irure dolor in
-    - Excepteur sint occaecat cupidatat non
-    - **hello:**hello mercury venus earth mars jupiter
+_Mumbai, India_  
+Indian Institute of Technology, Bombay  
+May - June, 2018  
+- Duis aute irure dolor in
+- **Django:** Excepteur sint occaecat cupidatat non
+- Duis aute irure dolor in
+- Excepteur sint occaecat cupidatat non
+- **hello:** hello mercury venus earth mars jupiter
 
 
 ## Projects
@@ -65,4 +65,4 @@ Address: Lorem Ipsum
 ## Skills
 
 - **Proficient In**: C, C++, Python, Data Structures and Algorithms, Version Control System (git), Object Oriented Programming
-- **Familiar With**: SQL, Linux, Web Technologies (HTML, CSS, JavaScript), WebGL, Backend Technologies (Django, Flask), Machine Learning, Deep Learning, PyTorch, \LaTeX
+- **Familiar With**: SQL, Linux, Web Technologies (HTML, CSS, JavaScript), WebGL, Backend Technologies (Django, Flask), Machine Learning, Deep Learning, PyTorch, LaTeX
