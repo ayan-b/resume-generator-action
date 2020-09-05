@@ -2,7 +2,7 @@
 
 Email: ayanbn7@gmail.com
 Address: Lorem Ipsum
-[Website](https://ayan-b.github.io/) | [LinkedIn](https://www.linkedin.com/in/ayanb/) | [GitHub](https://www.github.com)
+[Website](https://ayan-b.github.io/) | [LinkedIn](https://www.linkedin.com/in/ayanb/) | [GitHub](https://www.github.com) | [Resume](./main.pdf)
 
 ## Education
 
@@ -35,7 +35,7 @@ Address: Lorem Ipsum
     - Duis aute irure dolor in
     - **Django:**Excepteur sint occaecat cupidatat non
     - Duis aute irure dolor in
-    
+
 ### Summer Intern
 
     _Mumbai, India_
@@ -46,7 +46,7 @@ Address: Lorem Ipsum
     - Duis aute irure dolor in
     - Excepteur sint occaecat cupidatat non
     - **hello:**hello mercury venus earth mars jupiter
-    
+
 
 ## Projects
 
