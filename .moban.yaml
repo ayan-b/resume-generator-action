@@ -18,4 +18,6 @@ configuration:
         lstrip_blocks: true
 
 targets:
-  - main.tex: resume.tex_jj2
+  - deploy/main.tex: templates/resume.tex_jj2
+  - deploy/index.md: templates/resume.md_jj2
+  - deploy/config.yml: templates/_config.yml_jj2

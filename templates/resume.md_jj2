@@ -1,0 +1,47 @@
+# {{ name }}
+
+Email: {{ email }}
+Address: {{ address }}
+[Website]({{website}}) | [LinkedIn]({{linkedin}}) | [GitHub]({{github}})
+
+## Education
+
+{% for institute in education %}
+### {{ institute.institute }}
+
+    {{ institute.place }}
+    {{ institute.program }}, {{ institute.marks }}
+    {{ institute.period }}
+
+{% endfor %}
+
+## Experience
+
+{% for experience in experiences %}
+### {{ experience.position }}
+
+    _{{ experience.place }}_
+    {{ experience.company }}
+    {{ experience.period }}
+    {% for work in experience.work %}
+    - {% if work.title %}**{{work.title}}:**{% endif %}{{ work.description }}
+    {% endfor %}
+    
+{% endfor %}
+
+## Projects
+
+{% for project in projects %}
+- [{{project.name}}]({{project.link}}): {{project.work}}
+{% endfor %}
+
+## Achievements
+
+{% for achievement in achievements %}
+- {{achievement}}
+{% endfor %}
+
+## Skills
+
+- **Proficient In**: {{ skills.proficient }}
+- **Familiar With**: {{ skills.familiar }}

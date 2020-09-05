@@ -6,6 +6,10 @@ dob: 01.01.2019
 guardian: Lorem Ipsum
 address: Lorem Ipsum 
 mobile: +91 123456789
+google_analytics: UA-121107357-1
+description: Software Developer
+linkedin: https://www.linkedin.com/in/ayanb/
+github: https://www.github.com
 
 # Education
 education:
@@ -27,6 +31,16 @@ education:
 
 # Experience
 experiences:
+  - company: UCSC Xena
+    place: Open Source
+    position: Google Summer of Code student
+    period: May - August, 2019
+    work:
+      - description: Duis aute irure dolor in
+      - title: Django
+        description: Excepteur sint occaecat cupidatat non
+      - description: Duis aute irure dolor in
+
   - company: Indian Institute of Technology, Bombay
     place: Mumbai, India
     position: Summer Intern
