@@ -2,7 +2,7 @@
 
 Email: ayanbn7@gmail.com  
 Address: Lorem Ipsum  
-[Website](https://ayan-b.github.io/) | [LinkedIn](https://www.linkedin.com/in/ayanb/) | [GitHub](https://www.github.com) | [Resume](./main.pdf)
+[Website](https://ayan-b.github.io/) | [LinkedIn](https://www.linkedin.com/in/ayanb/) | [GitHub](https://www.github.com/ayan-b) | [Resume](./main.pdf)
 
 ## Education
 
