@@ -71,7 +71,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{((( website )))}{\Large ((( name )))}} & Email : \href{mailto: ((( email )))}{((( email )))}\\
-  \href{((( website )))}{((( website )))} & Mobile : ((( mobile ))) \\
+  \href{((( website )))}{Website} \(|\) \href{((( github )))}{GitHub} \(|\) \href{((( linkedin )))}{LinkedIn} & Mobile : ((( mobile ))) \\
 \end{tabular*}
 
 %-----------EDUCATION-----------------
